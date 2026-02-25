@@ -2,7 +2,11 @@ import "./App.css";
 import { AppRouter } from "./route/AppRoute";
 
 function App() {
-  return <AppRouter />;
+  return (
+    <div className="w-full h-screen bg-white">
+      <AppRouter />
+    </div>
+  );
 }
 
 export default App;
